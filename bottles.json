@@ -1,0 +1,54 @@
+const bottles = [
+  {
+    id: 1,
+    brand: "Coca-Cola",
+    volume: 500, // in milliliters
+    material: "Plastic",
+    color: "Red",
+    price: 1.5, // in dollars
+    weight: 550, // in grams
+    usage_duration: 30 // in days (how long you can use it before disposal/recycling)
+  },
+  {
+    id: 2,
+    brand: "Pepsi",
+    volume: 600, // in milliliters
+    material: "Plastic",
+    color: "Blue",
+    price: 1.7, // in dollars
+    weight: 600, // in grams
+    usage_duration: 30 // in days
+  },
+  {
+    id: 3,
+    brand: "Nestle Pure Life",
+    volume: 1000, // in milliliters
+    material: "Plastic",
+    color: "Clear",
+    price: 1.2, // in dollars
+    weight: 1100, // in grams
+    usage_duration: 30 // in days
+  },
+  {
+    id: 4,
+    brand: "Evian",
+    volume: 500, // in milliliters
+    material: "Glass",
+    color: "Transparent",
+    price: 2.5, // in dollars
+    weight: 800, // in grams
+    usage_duration: 60 // in days
+  },
+  {
+    id: 5,
+    brand: "Fiji",
+    volume: 330, // in milliliters
+    material: "Plastic",
+    color: "Blue",
+    price: 1.9, // in dollars
+    weight: 350, // in grams
+    usage_duration: 30 // in days
+  }
+];
+
+console.log(bottles);
